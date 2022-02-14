@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5235BC7E27B0E20500884545 /* IncidentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235BC7D27B0E20500884545 /* IncidentError.swift */; };
+		5235BC7F27B0E20500884545 /* IncidentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235BC7D27B0E20500884545 /* IncidentError.swift */; };
+		5235BC8027B0E20500884545 /* IncidentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235BC7D27B0E20500884545 /* IncidentError.swift */; };
+		5235BC8127B0E20500884545 /* IncidentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235BC7D27B0E20500884545 /* IncidentError.swift */; };
+		5235BC8327B2053A00884545 /* SampleToDataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235BC8227B2053A00884545 /* SampleToDataTransformer.swift */; };
+		5235BC8427B2053A00884545 /* SampleToDataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235BC8227B2053A00884545 /* SampleToDataTransformer.swift */; };
+		5235BC8527B2053A00884545 /* SampleToDataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235BC8227B2053A00884545 /* SampleToDataTransformer.swift */; };
+		5235BC8627B2053A00884545 /* SampleToDataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235BC8227B2053A00884545 /* SampleToDataTransformer.swift */; };
+		5235BCEB27B21AB900884545 /* Incidents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52BB810F27AE71210075A036 /* Incidents.xcdatamodeld */; };
+		5235BCEC27B21BCC00884545 /* IncidentsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB813F27AFA88A0075A036 /* IncidentsProvider.swift */; };
+		5235BCED27B21CCF00884545 /* IncidentsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB813F27AFA88A0075A036 /* IncidentsProvider.swift */; };
+		52A59EF827B389440053717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A59EF727B389440053717E /* Assets.xcassets */; };
+		52A59EFA27B389650053717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A59EF927B389650053717E /* Assets.xcassets */; };
 		52BB809727ADFAAA0075A036 /* Abstract_BreathingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB809627ADFAAA0075A036 /* Abstract_BreathingApp.swift */; };
 		52BB809927ADFAAA0075A036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB809827ADFAAA0075A036 /* ContentView.swift */; };
-		52BB809B27ADFAAC0075A036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BB809A27ADFAAC0075A036 /* Assets.xcassets */; };
 		52BB809E27ADFAAC0075A036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BB809D27ADFAAC0075A036 /* Preview Assets.xcassets */; };
 		52BB80A827ADFAAC0075A036 /* Abstract_BreathingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB80A727ADFAAC0075A036 /* Abstract_BreathingTests.swift */; };
 		52BB80B227ADFAAC0075A036 /* Abstract_BreathingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB80B127ADFAAC0075A036 /* Abstract_BreathingUITests.swift */; };
 		52BB80B427ADFAAC0075A036 /* Abstract_BreathingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB80B327ADFAAC0075A036 /* Abstract_BreathingUITestsLaunchTests.swift */; };
 		52BB80B827ADFAAC0075A036 /* Abstract Breathing WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 52BB80B727ADFAAC0075A036 /* Abstract Breathing WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		52BB80BD27ADFAAD0075A036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BB80BC27ADFAAD0075A036 /* Assets.xcassets */; };
 		52BB80C327ADFAAD0075A036 /* Abstract Breathing WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52BB80C227ADFAAD0075A036 /* Abstract Breathing WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52BB80C827ADFAAD0075A036 /* Abstract_BreathingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB80C727ADFAAD0075A036 /* Abstract_BreathingApp.swift */; };
 		52BB80CA27ADFAAD0075A036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB80C927ADFAAD0075A036 /* ContentView.swift */; };
@@ -27,6 +38,10 @@
 		52BB80E127ADFAAF0075A036 /* Abstract_Breathing_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB80E027ADFAAF0075A036 /* Abstract_Breathing_WatchKit_AppTests.swift */; };
 		52BB80EB27ADFAAF0075A036 /* Abstract_Breathing_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB80EA27ADFAAF0075A036 /* Abstract_Breathing_WatchKit_AppUITests.swift */; };
 		52BB80ED27ADFAAF0075A036 /* Abstract_Breathing_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB80EC27ADFAAF0075A036 /* Abstract_Breathing_WatchKit_AppUITestsLaunchTests.swift */; };
+		52BB810A27ADFC410075A036 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BB810927ADFC410075A036 /* HealthKit.framework */; };
+		52BB810E27AE1B650075A036 /* startup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB810D27AE1B650075A036 /* startup.swift */; };
+		52BB811127AE71210075A036 /* Incidents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52BB810F27AE71210075A036 /* Incidents.xcdatamodeld */; };
+		52BB812C27AF9D780075A036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BB812B27AF9D770075A036 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,10 +115,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5235BC7D27B0E20500884545 /* IncidentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentError.swift; sourceTree = "<group>"; };
+		5235BC8227B2053A00884545 /* SampleToDataTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleToDataTransformer.swift; sourceTree = "<group>"; };
+		52A59EF727B389440053717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Creative Cloud Files/Abstract Breathing/iOS/Assets.xcassets"; sourceTree = "<group>"; };
+		52A59EF927B389650053717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Creative Cloud Files/Abstract Breathing/WatchOS/Assets.xcassets"; sourceTree = "<group>"; };
+		52A59EFB27B38BC80053717E /* Abstract-Breathing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Abstract-Breathing-Info.plist"; sourceTree = SOURCE_ROOT; };
 		52BB809327ADFAAA0075A036 /* Abstract Breathing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abstract Breathing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BB809627ADFAAA0075A036 /* Abstract_BreathingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_BreathingApp.swift; sourceTree = "<group>"; };
 		52BB809827ADFAAA0075A036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		52BB809A27ADFAAC0075A036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BB809D27ADFAAC0075A036 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52BB80A327ADFAAC0075A036 /* Abstract BreathingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abstract BreathingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BB80A727ADFAAC0075A036 /* Abstract_BreathingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_BreathingTests.swift; sourceTree = "<group>"; };
@@ -111,7 +130,6 @@
 		52BB80B127ADFAAC0075A036 /* Abstract_BreathingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_BreathingUITests.swift; sourceTree = "<group>"; };
 		52BB80B327ADFAAC0075A036 /* Abstract_BreathingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_BreathingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		52BB80B727ADFAAC0075A036 /* Abstract Breathing WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abstract Breathing WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52BB80BC27ADFAAD0075A036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BB80C227ADFAAD0075A036 /* Abstract Breathing WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Abstract Breathing WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BB80C727ADFAAD0075A036 /* Abstract_BreathingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_BreathingApp.swift; sourceTree = "<group>"; };
 		52BB80C927ADFAAD0075A036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +145,12 @@
 		52BB80E627ADFAAF0075A036 /* Abstract Breathing WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abstract Breathing WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BB80EA27ADFAAF0075A036 /* Abstract_Breathing_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_Breathing_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		52BB80EC27ADFAAF0075A036 /* Abstract_Breathing_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_Breathing_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52BB810727ADFC400075A036 /* Abstract Breathing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Abstract Breathing.entitlements"; sourceTree = "<group>"; };
+		52BB810927ADFC410075A036 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		52BB810D27AE1B650075A036 /* startup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startup.swift; sourceTree = "<group>"; };
+		52BB811027AE71210075A036 /* incident.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = incident.xcdatamodel; sourceTree = "<group>"; };
+		52BB812B27AF9D770075A036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Creative Cloud Files/Abstract Breathing/WatchOS/Assets.xcassets"; sourceTree = "<group>"; };
+		52BB813F27AFA88A0075A036 /* IncidentsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentsProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BB810A27ADFC410075A036 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +203,8 @@
 		52BB808A27ADFAAA0075A036 = {
 			isa = PBXGroup;
 			children = (
+				52BB810C27AE1B3E0075A036 /* StartUp */,
+				52BB810B27AE176B0075A036 /* Models */,
 				52BB809527ADFAAA0075A036 /* Abstract Breathing */,
 				52BB80A627ADFAAC0075A036 /* Abstract BreathingTests */,
 				52BB80B027ADFAAC0075A036 /* Abstract BreathingUITests */,
@@ -186,6 +213,7 @@
 				52BB80DF27ADFAAF0075A036 /* Abstract Breathing WatchKit AppTests */,
 				52BB80E927ADFAAF0075A036 /* Abstract Breathing WatchKit AppUITests */,
 				52BB809427ADFAAA0075A036 /* Products */,
+				52BB810827ADFC410075A036 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,9 +234,11 @@
 		52BB809527ADFAAA0075A036 /* Abstract Breathing */ = {
 			isa = PBXGroup;
 			children = (
-				52BB809627ADFAAA0075A036 /* Abstract_BreathingApp.swift */,
+				52A59EFB27B38BC80053717E /* Abstract-Breathing-Info.plist */,
+				52BB810727ADFC400075A036 /* Abstract Breathing.entitlements */,
 				52BB809827ADFAAA0075A036 /* ContentView.swift */,
-				52BB809A27ADFAAC0075A036 /* Assets.xcassets */,
+				52BB809627ADFAAA0075A036 /* Abstract_BreathingApp.swift */,
+				52A59EF727B389440053717E /* Assets.xcassets */,
 				52BB809C27ADFAAC0075A036 /* Preview Content */,
 			);
 			path = "Abstract Breathing";
@@ -242,7 +272,7 @@
 		52BB80BB27ADFAAC0075A036 /* Abstract Breathing WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				52BB80BC27ADFAAD0075A036 /* Assets.xcassets */,
+				52BB812B27AF9D770075A036 /* Assets.xcassets */,
 			);
 			path = "Abstract Breathing WatchKit App";
 			sourceTree = "<group>";
@@ -256,6 +286,7 @@
 				52BB80CD27ADFAAD0075A036 /* NotificationView.swift */,
 				52BB80CF27ADFAAD0075A036 /* ComplicationController.swift */,
 				52BB80D127ADFAAE0075A036 /* Assets.xcassets */,
+				52A59EF927B389650053717E /* Assets.xcassets */,
 				52BB80D627ADFAAE0075A036 /* Info.plist */,
 				52BB80D727ADFAAE0075A036 /* PushNotificationPayload.apns */,
 				52BB80D327ADFAAE0075A036 /* Preview Content */,
@@ -286,6 +317,33 @@
 				52BB80EC27ADFAAF0075A036 /* Abstract_Breathing_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "Abstract Breathing WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		52BB810827ADFC410075A036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BB810927ADFC410075A036 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52BB810B27AE176B0075A036 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52BB810F27AE71210075A036 /* Incidents.xcdatamodeld */,
+				52BB813F27AFA88A0075A036 /* IncidentsProvider.swift */,
+				5235BC7D27B0E20500884545 /* IncidentError.swift */,
+				5235BC8227B2053A00884545 /* SampleToDataTransformer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52BB810C27AE1B3E0075A036 /* StartUp */ = {
+			isa = PBXGroup;
+			children = (
+				52BB810D27AE1B650075A036 /* startup.swift */,
+			);
+			path = StartUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -482,8 +540,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A59EF827B389440053717E /* Assets.xcassets in Resources */,
 				52BB809E27ADFAAC0075A036 /* Preview Assets.xcassets in Resources */,
-				52BB809B27ADFAAC0075A036 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +563,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52BB80BD27ADFAAD0075A036 /* Assets.xcassets in Resources */,
+				52BB812C27AF9D780075A036 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +572,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BB80D527ADFAAE0075A036 /* Preview Assets.xcassets in Resources */,
+				52A59EFA27B389650053717E /* Assets.xcassets in Resources */,
 				52BB80D227ADFAAE0075A036 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,8 +598,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BB810E27AE1B650075A036 /* startup.swift in Sources */,
+				5235BC7E27B0E20500884545 /* IncidentError.swift in Sources */,
 				52BB809927ADFAAA0075A036 /* ContentView.swift in Sources */,
 				52BB809727ADFAAA0075A036 /* Abstract_BreathingApp.swift in Sources */,
+				5235BCED27B21CCF00884545 /* IncidentsProvider.swift in Sources */,
+				5235BC8327B2053A00884545 /* SampleToDataTransformer.swift in Sources */,
+				52BB811127AE71210075A036 /* Incidents.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +613,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BB80A827ADFAAC0075A036 /* Abstract_BreathingTests.swift in Sources */,
+				5235BC7F27B0E20500884545 /* IncidentError.swift in Sources */,
+				5235BC8427B2053A00884545 /* SampleToDataTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +623,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BB80B227ADFAAC0075A036 /* Abstract_BreathingUITests.swift in Sources */,
+				5235BC8027B0E20500884545 /* IncidentError.swift in Sources */,
 				52BB80B427ADFAAC0075A036 /* Abstract_BreathingUITestsLaunchTests.swift in Sources */,
+				5235BC8527B2053A00884545 /* SampleToDataTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,9 +635,13 @@
 			files = (
 				52BB80CC27ADFAAD0075A036 /* NotificationController.swift in Sources */,
 				52BB80CA27ADFAAD0075A036 /* ContentView.swift in Sources */,
+				5235BC8127B0E20500884545 /* IncidentError.swift in Sources */,
 				52BB80D027ADFAAD0075A036 /* ComplicationController.swift in Sources */,
 				52BB80C827ADFAAD0075A036 /* Abstract_BreathingApp.swift in Sources */,
+				5235BCEC27B21BCC00884545 /* IncidentsProvider.swift in Sources */,
 				52BB80CE27ADFAAD0075A036 /* NotificationView.swift in Sources */,
+				5235BC8627B2053A00884545 /* SampleToDataTransformer.swift in Sources */,
+				5235BCEB27B21AB900884545 /* Incidents.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,7 +821,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Abstract Breathing WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Abstract_Breathing_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -758,7 +830,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abstracttech.Abstract-Breathing.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -781,7 +853,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Abstract Breathing WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Abstract_Breathing_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -790,7 +862,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abstracttech.Abstract-Breathing.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -806,7 +878,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchOSAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -815,9 +887,9 @@
 				IBSC_MODULE = Abstract_Breathing_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.abstracttech.Abstract-Breathing";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.abstracttech.abstractbreathing;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abstracttech.Abstract-Breathing.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -832,7 +904,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchOSAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -841,9 +913,9 @@
 				IBSC_MODULE = Abstract_Breathing_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.abstracttech.Abstract-Breathing";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.abstracttech.abstractbreathing;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abstracttech.Abstract-Breathing.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -858,15 +930,19 @@
 		52BB80F927ADFAAF0075A036 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iOSAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Abstract Breathing/Abstract Breathing.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Abstract Breathing/Preview Content\"";
 				DEVELOPMENT_TEAM = AG76BK4REC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Abstract-Breathing-Info.plist";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -877,7 +953,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abstracttech.Abstract-Breathing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -889,15 +965,19 @@
 		52BB80FA27ADFAAF0075A036 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iOSAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Abstract Breathing/Abstract Breathing.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Abstract Breathing/Preview Content\"";
 				DEVELOPMENT_TEAM = AG76BK4REC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Abstract-Breathing-Info.plist";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -908,7 +988,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abstracttech.Abstract-Breathing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1160,6 +1240,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52BB810F27AE71210075A036 /* Incidents.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52BB811027AE71210075A036 /* incident.xcdatamodel */,
+			);
+			currentVersion = 52BB811027AE71210075A036 /* incident.xcdatamodel */;
+			path = Incidents.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 52BB808B27ADFAAA0075A036 /* Project object */;
 }

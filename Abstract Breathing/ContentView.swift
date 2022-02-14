@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) private var viewContext
+    @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \Incident.time, ascending: true)], animation: .default)
+    private var incidents: FetchedResults<Incident>
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(incidents) { incident in
+                    NavigationLink {
+                        Text("Incident at \(incident.time!, formatter: incidentFormatter)")
+                    } label: {
+                        Text(incident.time!, formatter: incidentFormatter)
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -19,3 +32,10 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+private let incidentFormatter: DateFormatter = {
+    let formatter = DateFormatter()
+    formatter.dateStyle = .short
+    formatter.timeStyle = .medium
+    return formatter
+}()

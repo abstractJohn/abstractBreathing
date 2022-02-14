@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Incident" representedClassName=".Incident" syncable="YES" codeGenerationType="class">
+        <attribute name="time" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="medication" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Medication"/>
+        <relationship name="symptoms" toMany="YES" deletionRule="Nullify" destinationEntity="Symptom"/>
+        <relationship name="triggers" toMany="YES" deletionRule="Nullify" destinationEntity="Trigger"/>
+    </entity>
+    <entity name="Medication" representedClassName="Medication" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Symptom" representedClassName=".Symptom" syncable="YES" codeGenerationType="class">
+        <attribute name="healthKitSymptom" optional="YES" attributeType="Transformable" valueTransformerName="SampleToDataTransformer" customClassName="HealthKit.HKSample"/>
+        <attribute name="time" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Trigger" representedClassName="Trigger" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="time" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Incident" positionX="-460.4888916015625" positionY="-220.3243103027344" width="128" height="89"/>
+        <element name="Medication" positionX="-281.7584228515625" positionY="-75.81027221679688" width="128" height="44"/>
+        <element name="Symptom" positionX="-172.11279296875" positionY="74.23583984375" width="128" height="59"/>
+        <element name="Trigger" positionX="-351.0830688476562" positionY="92.59445190429688" width="128" height="59"/>
+    </elements>
+</model>
