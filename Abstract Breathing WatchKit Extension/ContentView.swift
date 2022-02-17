@@ -8,9 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) private var viewContext
+    @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \Medication.name, ascending: true)], animation: .default)
+    private var medications: FetchedResults<Medication>
+    @State var medication: Medication?
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack {
+            Picker(selection: $medication) {
+                    ForEach(medications) { med in
+                        Text(med.name ?? "")
+                    }
+            } label: {
+                Text("Medication")
+            }
+            .pickerStyle(.wheel)
+            .foregroundColor(.blue)
+            Button(action: addUsage) {
+                Text("Used")
+            }
+            .background(.blue)
+            Spacer()
+        }
+    }
+    
+    private func addUsage() {
+        
     }
 }
 
@@ -19,3 +41,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

@@ -11,6 +11,7 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \Incident.time, ascending: true)], animation: .default)
     private var incidents: FetchedResults<Incident>
+    @State var settingsOpen: Bool = false
     
     var body: some View {
         NavigationView {
@@ -23,7 +24,21 @@ struct ContentView: View {
                     }
                 }
             }
+            .navigationTitle("Breathing Incidents")
+            .toolbar() {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(){
+                        settingsOpen = true
+                    } label: {
+                        Image(systemName: "gear")
+                    }
+                }
+            }
+            .sheet(isPresented: $settingsOpen, onDismiss: {settingsOpen = false}) {
+                SettingsView()
+            }
         }
+    
     }
 }
 

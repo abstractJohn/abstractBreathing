@@ -20,6 +20,16 @@
 		5235BCED27B21CCF00884545 /* IncidentsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB813F27AFA88A0075A036 /* IncidentsProvider.swift */; };
 		52A59EF827B389440053717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A59EF727B389440053717E /* Assets.xcassets */; };
 		52A59EFA27B389650053717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A59EF927B389650053717E /* Assets.xcassets */; };
+		52A59EFE27BB34730053717E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A59EFD27BB34730053717E /* SettingsView.swift */; };
+		52A59F0027BB589E0053717E /* AddMedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A59EFF27BB589E0053717E /* AddMedication.swift */; };
+		52A59F0227BC7BE20053717E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A59F0127BC7BE20053717E /* WidgetKit.framework */; };
+		52A59F0827BC7D4E0053717E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A59F0127BC7BE20053717E /* WidgetKit.framework */; };
+		52A59F0A27BC7D4E0053717E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A59F0927BC7D4E0053717E /* SwiftUI.framework */; platformFilter = maccatalyst; };
+		52A59F0D27BC7D4E0053717E /* Abstract_Breathing_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A59F0C27BC7D4E0053717E /* Abstract_Breathing_Widget.swift */; };
+		52A59F1027BC7D500053717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A59F0F27BC7D500053717E /* Assets.xcassets */; };
+		52A59F1227BC7D500053717E /* Abstract_Breathing_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 52A59F0E27BC7D4E0053717E /* Abstract_Breathing_Widget.intentdefinition */; };
+		52A59F1327BC7D500053717E /* Abstract_Breathing_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 52A59F0E27BC7D4E0053717E /* Abstract_Breathing_Widget.intentdefinition */; };
+		52A59F1627BC7D500053717E /* Abstract Breathing WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52A59F0727BC7D4E0053717E /* Abstract Breathing WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52BB809727ADFAAA0075A036 /* Abstract_BreathingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB809627ADFAAA0075A036 /* Abstract_BreathingApp.swift */; };
 		52BB809927ADFAAA0075A036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB809827ADFAAA0075A036 /* ContentView.swift */; };
 		52BB809E27ADFAAC0075A036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BB809D27ADFAAC0075A036 /* Preview Assets.xcassets */; };
@@ -45,6 +55,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		52A59F1427BC7D500053717E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BB808B27ADFAAA0075A036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A59F0627BC7D4E0053717E;
+			remoteInfo = "Abstract Breathing WidgetExtension";
+		};
 		52BB80A427ADFAAC0075A036 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52BB808B27ADFAAA0075A036 /* Project object */;
@@ -90,6 +107,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		52A59F1A27BC7D500053717E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				52A59F1627BC7D500053717E /* Abstract Breathing WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52BB80F327ADFAAF0075A036 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +148,15 @@
 		52A59EF727B389440053717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Creative Cloud Files/Abstract Breathing/iOS/Assets.xcassets"; sourceTree = "<group>"; };
 		52A59EF927B389650053717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Creative Cloud Files/Abstract Breathing/WatchOS/Assets.xcassets"; sourceTree = "<group>"; };
 		52A59EFB27B38BC80053717E /* Abstract-Breathing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Abstract-Breathing-Info.plist"; sourceTree = SOURCE_ROOT; };
+		52A59EFD27BB34730053717E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		52A59EFF27BB589E0053717E /* AddMedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedication.swift; sourceTree = "<group>"; };
+		52A59F0127BC7BE20053717E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/WidgetKit.framework; sourceTree = DEVELOPER_DIR; };
+		52A59F0727BC7D4E0053717E /* Abstract Breathing WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Abstract Breathing WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A59F0927BC7D4E0053717E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		52A59F0C27BC7D4E0053717E /* Abstract_Breathing_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_Breathing_Widget.swift; sourceTree = "<group>"; };
+		52A59F0E27BC7D4E0053717E /* Abstract_Breathing_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Abstract_Breathing_Widget.intentdefinition; sourceTree = "<group>"; };
+		52A59F0F27BC7D500053717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A59F1127BC7D500053717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52BB809327ADFAAA0075A036 /* Abstract Breathing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abstract Breathing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BB809627ADFAAA0075A036 /* Abstract_BreathingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_BreathingApp.swift; sourceTree = "<group>"; };
 		52BB809827ADFAAA0075A036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,11 +191,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		52A59F0427BC7D4E0053717E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A59F0A27BC7D4E0053717E /* SwiftUI.framework in Frameworks */,
+				52A59F0827BC7D4E0053717E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52BB809027ADFAAA0075A036 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				52BB810A27ADFC410075A036 /* HealthKit.framework in Frameworks */,
+				52A59F0227BC7BE20053717E /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +247,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52A59EFC27BB34490053717E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52A59EFD27BB34730053717E /* SettingsView.swift */,
+				52A59EFF27BB589E0053717E /* AddMedication.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52A59F0B27BC7D4E0053717E /* Abstract Breathing Widget */ = {
+			isa = PBXGroup;
+			children = (
+				52A59F0C27BC7D4E0053717E /* Abstract_Breathing_Widget.swift */,
+				52A59F0E27BC7D4E0053717E /* Abstract_Breathing_Widget.intentdefinition */,
+				52A59F0F27BC7D500053717E /* Assets.xcassets */,
+				52A59F1127BC7D500053717E /* Info.plist */,
+			);
+			path = "Abstract Breathing Widget";
+			sourceTree = "<group>";
+		};
 		52BB808A27ADFAAA0075A036 = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +279,7 @@
 				52BB80C627ADFAAD0075A036 /* Abstract Breathing WatchKit Extension */,
 				52BB80DF27ADFAAF0075A036 /* Abstract Breathing WatchKit AppTests */,
 				52BB80E927ADFAAF0075A036 /* Abstract Breathing WatchKit AppUITests */,
+				52A59F0B27BC7D4E0053717E /* Abstract Breathing Widget */,
 				52BB809427ADFAAA0075A036 /* Products */,
 				52BB810827ADFC410075A036 /* Frameworks */,
 			);
@@ -227,6 +295,7 @@
 				52BB80C227ADFAAD0075A036 /* Abstract Breathing WatchKit Extension.appex */,
 				52BB80DC27ADFAAF0075A036 /* Abstract Breathing WatchKit AppTests.xctest */,
 				52BB80E627ADFAAF0075A036 /* Abstract Breathing WatchKit AppUITests.xctest */,
+				52A59F0727BC7D4E0053717E /* Abstract Breathing WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,6 +303,7 @@
 		52BB809527ADFAAA0075A036 /* Abstract Breathing */ = {
 			isa = PBXGroup;
 			children = (
+				52A59EFC27BB34490053717E /* Views */,
 				52A59EFB27B38BC80053717E /* Abstract-Breathing-Info.plist */,
 				52BB810727ADFC400075A036 /* Abstract Breathing.entitlements */,
 				52BB809827ADFAAA0075A036 /* ContentView.swift */,
@@ -322,7 +392,9 @@
 		52BB810827ADFC410075A036 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52A59F0127BC7BE20053717E /* WidgetKit.framework */,
 				52BB810927ADFC410075A036 /* HealthKit.framework */,
+				52A59F0927BC7D4E0053717E /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -349,6 +421,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		52A59F0627BC7D4E0053717E /* Abstract Breathing WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A59F1727BC7D500053717E /* Build configuration list for PBXNativeTarget "Abstract Breathing WidgetExtension" */;
+			buildPhases = (
+				52A59F0327BC7D4E0053717E /* Sources */,
+				52A59F0427BC7D4E0053717E /* Frameworks */,
+				52A59F0527BC7D4E0053717E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abstract Breathing WidgetExtension";
+			productName = "Abstract Breathing WidgetExtension";
+			productReference = 52A59F0727BC7D4E0053717E /* Abstract Breathing WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		52BB809227ADFAAA0075A036 /* Abstract Breathing */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52BB80F827ADFAAF0075A036 /* Build configuration list for PBXNativeTarget "Abstract Breathing" */;
@@ -357,11 +446,13 @@
 				52BB809027ADFAAA0075A036 /* Frameworks */,
 				52BB809127ADFAAA0075A036 /* Resources */,
 				52BB80F727ADFAAF0075A036 /* Embed Watch Content */,
+				52A59F1A27BC7D500053717E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				52BB80BA27ADFAAC0075A036 /* PBXTargetDependency */,
+				52A59F1527BC7D500053717E /* PBXTargetDependency */,
 			);
 			name = "Abstract Breathing";
 			productName = "Abstract Breathing";
@@ -484,6 +575,9 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					52A59F0627BC7D4E0053717E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					52BB809227ADFAAA0075A036 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -531,11 +625,20 @@
 				52BB80C127ADFAAD0075A036 /* Abstract Breathing WatchKit Extension */,
 				52BB80DB27ADFAAF0075A036 /* Abstract Breathing WatchKit AppTests */,
 				52BB80E527ADFAAF0075A036 /* Abstract Breathing WatchKit AppUITests */,
+				52A59F0627BC7D4E0053717E /* Abstract Breathing WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		52A59F0527BC7D4E0053717E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A59F1027BC7D500053717E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52BB809127ADFAAA0075A036 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -594,11 +697,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		52A59F0327BC7D4E0053717E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A59F0D27BC7D4E0053717E /* Abstract_Breathing_Widget.swift in Sources */,
+				52A59F1227BC7D500053717E /* Abstract_Breathing_Widget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52BB808F27ADFAAA0075A036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				52BB810E27AE1B650075A036 /* startup.swift in Sources */,
+				52A59EFE27BB34730053717E /* SettingsView.swift in Sources */,
+				52A59F0027BB589E0053717E /* AddMedication.swift in Sources */,
+				52A59F1327BC7D500053717E /* Abstract_Breathing_Widget.intentdefinition in Sources */,
 				5235BC7E27B0E20500884545 /* IncidentError.swift in Sources */,
 				52BB809927ADFAAA0075A036 /* ContentView.swift in Sources */,
 				52BB809727ADFAAA0075A036 /* Abstract_BreathingApp.swift in Sources */,
@@ -665,6 +780,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		52A59F1527BC7D500053717E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A59F0627BC7D4E0053717E /* Abstract Breathing WidgetExtension */;
+			targetProxy = 52A59F1427BC7D500053717E /* PBXContainerItemProxy */;
+		};
 		52BB80A527ADFAAC0075A036 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 52BB809227ADFAAA0075A036 /* Abstract Breathing */;
@@ -698,6 +818,65 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		52A59F1827BC7D500053717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AG76BK4REC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Abstract Breathing Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abstracttech.abstractbreathing.Abstract-Breathing-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52A59F1927BC7D500053717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AG76BK4REC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Abstract Breathing Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abstracttech.abstractbreathing.Abstract-Breathing-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		52BB80EE27ADFAAF0075A036 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -888,7 +1067,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.abstracttech.abstractbreathing;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -914,7 +1093,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.abstracttech.abstractbreathing;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -930,6 +1109,7 @@
 		52BB80F927ADFAAF0075A036 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = iOSAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Abstract Breathing/Abstract Breathing.entitlements";
@@ -940,6 +1120,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Abstract-Breathing-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing";
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
@@ -952,7 +1133,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -965,6 +1146,7 @@
 		52BB80FA27ADFAAF0075A036 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = iOSAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Abstract Breathing/Abstract Breathing.entitlements";
@@ -975,6 +1157,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Abstract-Breathing-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Abstract Breathing";
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Abstract Breathing allows you to track symptoms and treatments and needs access to your Health Data to do so.";
@@ -987,7 +1170,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abstracttech.abstractbreathing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1167,6 +1350,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		52A59F1727BC7D500053717E /* Build configuration list for PBXNativeTarget "Abstract Breathing WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A59F1827BC7D500053717E /* Debug */,
+				52A59F1927BC7D500053717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		52BB808E27ADFAAA0075A036 /* Build configuration list for PBXProject "Abstract Breathing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

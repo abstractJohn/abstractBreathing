@@ -9,11 +9,12 @@ import SwiftUI
 
 @main
 struct Abstract_BreathingApp: App {
+    let incidentsProvider = IncidentsProvider.shared
     @SceneBuilder var body: some Scene {
         WindowGroup {
-            NavigationView {
+            
                 ContentView()
-            }
+                    .environment(\.managedObjectContext, incidentsProvider.container.viewContext)
         }
 
         WKNotificationScene(controller: NotificationController.self, category: "myCategory")

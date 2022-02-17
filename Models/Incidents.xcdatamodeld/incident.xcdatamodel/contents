@@ -10,7 +10,7 @@
         <attribute name="name" optional="YES" attributeType="String"/>
     </entity>
     <entity name="Symptom" representedClassName=".Symptom" syncable="YES" codeGenerationType="class">
-        <attribute name="healthKitSymptom" optional="YES" attributeType="Transformable" valueTransformerName="SampleToDataTransformer" customClassName="HealthKit.HKSample"/>
+        <attribute name="healthKitSymptom" optional="YES" attributeType="Transformable" valueTransformerName="SampleToDataTransformer" allowsCloudEncryption="YES" customClassName="HealthKit.HKSample"/>
         <attribute name="time" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
     <entity name="Trigger" representedClassName="Trigger" syncable="YES" codeGenerationType="class">

@@ -9,6 +9,7 @@ import Foundation
 import HealthKit
 
 class SampleToDataTransformer: NSSecureUnarchiveFromDataTransformer {
+    let name: NSValueTransformerName = NSValueTransformerName(rawValue: "SampleToDataTransformer")
     override class func allowsReverseTransformation() -> Bool {
         return true
     }
